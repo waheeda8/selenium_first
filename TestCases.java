@@ -221,7 +221,7 @@ public class TestCases {
 
         // Locate the Password textbox and enter password Using Locator "ID"
         // id="session_password"
-        driver.findElement(By.id("session_password")).sendKeys("waheedaasif12");
+        driver.findElement(By.id("session_password")).sendKeys("password");
         // Click on sign in button Using Locator "XPath"
         // //button[@data-id="sign-in-form__submit-btn"]
         driver.findElement(By.xpath("//button[@data-id='sign-in-form__submit-btn']")).click();
